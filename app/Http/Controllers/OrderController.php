@@ -11,10 +11,7 @@ class OrderController extends Controller
     public function index()
     {
         $orders = Order::with('products')->get();
-        return response()->json([
-            'message' => 'Order List',
-            'data' => $orders,
-        ]);
+        return view('orders.index', compact('orders')); // Menggunakan view
     }
 
     // Menyimpan pesanan baru

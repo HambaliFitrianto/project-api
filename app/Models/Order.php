@@ -9,6 +9,9 @@ class Order extends Model
 {
     use HasFactory;
 
+    // Menentukan atribut yang dapat diisi
+    protected $fillable = ['created_at', 'updated_at']; // Tambahkan atribut lain jika perlu
+
     // Definisikan relasi dengan model Product
     public function products()
     {
@@ -17,3 +20,4 @@ class Order extends Model
                     ->withTimestamps();
     }
 }
+

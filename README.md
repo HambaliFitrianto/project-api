@@ -61,16 +61,15 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek:
    ```
 
 6. **Sesuaikan konfigurasi database di file `.env`:**
-   - Buka file `.env` dan sesuaikan konfigurasi database Anda. Berikut adalah contoh konfigurasi:
+   - Buka file `.env` dan sesuaikan konfigurasi database Anda:
    ```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
    DB_DATABASE=api_project_db
    DB_USERNAME=root
-   DB_PASSWORD=
+   DB_PASSWORD= # tambahkan ini dan sesuaikan dengan kebutuhan anda
    ```
-   **Catatan:** Anda dapat menyesuaikan nilai-nilai ini sesuai dengan kebutuhan dan pengaturan lingkungan pengembangan Anda.
 
 7. **Jalankan migrasi untuk membuat tabel di database:**
    - Jalankan perintah migrasi untuk membuat tabel:
@@ -85,3 +84,6 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek:
    ```
 
 Sekarang Anda dapat mengakses API di [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+## Dokumentasi Proyek
+Untuk melihat screenshot dan dokumentasi proyek, Anda bisa mengunjungi bagian **Issues** di sebelah pojok kiri atas di kanan kode. Klik **Issues** untuk melihat screenshot proyek.

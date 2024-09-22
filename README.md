@@ -1,4 +1,3 @@
-```markdown
 # Project API
 
 ## Deskripsi Proyek
@@ -69,5 +68,4 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek:
    php artisan serve
    ```
 
-Sekarang Anda dapat mengakses API di [http://localhost:8000](http://localhost:8000).
-```
+Sekarang Anda dapat mengakses API di [http://127.0.0.1:8000/](http://127.0.0.1:8000/).

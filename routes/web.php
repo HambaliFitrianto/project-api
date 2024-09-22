@@ -4,12 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\OrderController;
 
+// Route untuk halaman utama
 Route::get('/', function () {
-    return view('index');
+    return view('index'); // Pastikan file index.blade.php ada di resources/views
 });
 
-// Products endpoint
-Route::get('/products', [ProductController::class, 'index']);
+// Route untuk Products
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 
-// Orders endpoint
-Route::get('/orders', [OrderController::class, 'index']);
+// Route untuk Orders
+Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');

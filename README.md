@@ -9,7 +9,7 @@ Proyek ini adalah aplikasi API yang dibangun menggunakan Laravel dan MySQL. Apli
 
 ## Prerequisites
 Pastikan Anda memiliki hal berikut sebelum memulai:
-- PHP 7.3 atau lebih baru
+- PHP 8.2.4
 - Composer
 - MySQL
 
@@ -17,26 +17,37 @@ Pastikan Anda memiliki hal berikut sebelum memulai:
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek:
 
 1. **Clone repositori ini:**
+   - Jalankan perintah berikut di terminal Anda:
    ```bash
    git clone https://github.com/HambaliFitrianto/project-api.git
    ```
+
 2. **Masuk ke direktori proyek:**
+   - Setelah proses cloning selesai, masuk ke direktori proyek:
    ```bash
    cd project-api
    ```
+
 3. **Install dependensi menggunakan Composer:**
+   - Install semua dependensi yang diperlukan dengan perintah:
    ```bash
    composer install
    ```
+
 4. **Salin file `.env.example` menjadi `.env`:**
+   - Buat file `.env` berdasarkan contoh yang tersedia:
    ```bash
    cp .env.example .env
    ```
+
 5. **Generate key aplikasi:**
+   - Jalankan perintah berikut untuk menggenerate key aplikasi:
    ```bash
    php artisan key:generate
    ```
+
 6. **Sesuaikan konfigurasi database di file `.env`:**
+   - Buka file `.env` dan sesuaikan konfigurasi database Anda:
    ```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -45,11 +56,15 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek:
    DB_USERNAME=username_anda
    DB_PASSWORD=password_anda
    ```
+
 7. **Jalankan migrasi untuk membuat tabel di database:**
+   - Jalankan perintah migrasi untuk membuat tabel:
    ```bash
    php artisan migrate
    ```
+
 8. **Jalankan server lokal:**
+   - Terakhir, jalankan server lokal dengan perintah:
    ```bash
    php artisan serve
    ```

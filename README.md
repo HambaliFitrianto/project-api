@@ -7,20 +7,6 @@ Proyek ini adalah aplikasi API yang dibangun menggunakan Laravel dan MySQL. Apli
 - **Products**: Mengelola informasi produk, termasuk nama, harga, dan stok.
 - **Orders**: Mengelola pesanan yang mencakup produk yang dipesan, kuantitas, dan informasi lainnya.
 
-## Gambar Proyek
-
-### Halaman Utama
-![Halaman Utama](https://raw.githubusercontent.com/HambaliFitrianto/project-api/main/public/images/halaman_utama.jpeg)
-Halaman utama aplikasi ini memberikan gambaran umum tentang fitur-fitur yang tersedia dan memungkinkan pengguna untuk menavigasi ke bagian lain dari aplikasi.
-
-### Halaman Produk
-![Halaman Produk](https://raw.githubusercontent.com/HambaliFitrianto/project-api/main/public/images/halaman_produk.jpeg)
-Halaman produk ini menampilkan daftar semua produk yang tersedia. Di sini, pengguna dapat melihat informasi produk, termasuk nama, harga, dan jumlah stok yang ada.
-
-### Halaman Pesanan
-![Halaman Pesanan](https://raw.githubusercontent.com/HambaliFitrianto/project-api/main/public/images/halaman_pesanan.jpeg)
-Halaman pesanan ini menunjukkan daftar semua pesanan yang telah dibuat. Pengguna dapat melihat detail pesanan, termasuk produk yang dipesan dan kuantitas masing-masing.
-
 ## Prerequisites
 Pastikan Anda memiliki hal berikut sebelum memulai:
 - PHP 8.2.4

@@ -10,15 +10,15 @@ Proyek ini adalah aplikasi API yang dibangun menggunakan Laravel dan MySQL. Apli
 ## Gambar Proyek
 
 ### Halaman Utama
-![halaman_utama](https://github.com/user-attachments/assets/9e2a7f63-c593-4901-992e-27662a063ee3)
+![halaman_utama](hthttps://github.com/HambaliFitrianto/project-api/issues/1#issue-2540619792)
 Halaman utama aplikasi ini memberikan gambaran umum tentang fitur-fitur yang tersedia dan memungkinkan pengguna untuk menavigasi ke bagian lain dari aplikasi.
 
 ### Halaman Produk
-![halaman_produk](https://github.com/user-attachments/assets/0c8a2c55-047a-43e5-96a0-b2a5a6a8934e)
+![halaman_produk](https://github.com/HambaliFitrianto/project-api/issues/2#issue-2540620331)
 Halaman produk ini menampilkan daftar semua produk yang tersedia. Di sini, pengguna dapat melihat informasi produk, termasuk nama, harga, dan jumlah stok yang ada.
 
 ### Halaman Pesanan
-![halaman_pesanan](https://github.com/user-attachments/assets/6ee7cee6-90bd-4666-86ae-24d0e2f4d200)
+![halaman_pesanan](https://github.com/HambaliFitrianto/project-api/issues/3#issue-2540620514)
 Halaman pesanan ini menunjukkan daftar semua pesanan yang telah dibuat. Pengguna dapat melihat detail pesanan, termasuk produk yang dipesan dan kuantitas masing-masing.
 
 ## Prerequisites

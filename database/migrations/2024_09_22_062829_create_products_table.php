@@ -10,11 +10,11 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name'); // Nama produk
-            $table->integer('price'); // Harga produk
-            $table->integer('stock'); // Stok produk
-            $table->integer('sold')->default(0); // Terjual
-            $table->timestamps(); // Created_at dan updated_at
+            $table->string('name');
+            $table->decimal('price', 10, 2);
+            $table->integer('stock')->default(0);
+            $table->integer('sold')->default(0);
+            $table->timestamps();
         });
     }
 

@@ -9,15 +9,14 @@ class Product extends Model
 {
     use HasFactory;
 
-    // Menentukan atribut yang dapat diisi
+    // Menentukan atribut yang dapat diisi (fillable)
     protected $fillable = ['name', 'price', 'stock', 'sold'];
 
-    // Definisikan relasi dengan model Order
+    // Definisikan relasi Many-to-Many dengan model Order
     public function orders()
     {
         return $this->belongsToMany(Order::class, 'order_product')
-                    ->withPivot('quantity', 'price', 'stock', 'sold')
-                    ->withTimestamps();
+                    ->withPivot('quantity', 'price', 'stock', 'sold') // Menyimpan informasi tambahan di tabel pivot
+                    ->withTimestamps(); // Otomatis mengisi created_at dan updated_at di tabel pivot
     }
 }
-

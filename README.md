@@ -10,15 +10,15 @@ Proyek ini adalah aplikasi API yang dibangun menggunakan Laravel dan MySQL. Apli
 ## Gambar Proyek
 
 ### Halaman Utama
-![Halaman Utama](public/images/halaman_utama.jpeg)
+![Halaman Utama](images/halaman_utama.jpeg)
 Halaman utama aplikasi ini memberikan gambaran umum tentang fitur-fitur yang tersedia dan memungkinkan pengguna untuk menavigasi ke bagian lain dari aplikasi.
 
 ### Halaman Produk
-![Halaman Produk](public/images/halaman_produk.jpeg)
+![Halaman Produk](images/halaman_produk.jpeg)
 Halaman produk ini menampilkan daftar semua produk yang tersedia. Di sini, pengguna dapat melihat informasi produk, termasuk nama, harga, dan jumlah stok yang ada.
 
 ### Halaman Pesanan
-![Halaman Pesanan](public/images/halaman_pesanan.jpeg)
+![Halaman Pesanan](images/halaman_pesanan.jpeg)
 Halaman pesanan ini menunjukkan daftar semua pesanan yang telah dibuat. Pengguna dapat melihat detail pesanan, termasuk produk yang dipesan dan kuantitas masing-masing.
 
 ## Prerequisites
